@@ -113,3 +113,6 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
+
+# Change Auth User Model
+AUTH_USER_MODEL = 'authentication.Account'
